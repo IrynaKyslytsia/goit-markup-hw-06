@@ -523,12 +523,13 @@ p{
     line-height: 1.88;
     letter-spacing: 0.06em;
 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
 .button:hover,
 .button:focus{
     background-color: var(--button-active-color);
+    
 }
 
 .button-list{
@@ -847,6 +848,7 @@ b{
     border: 2px solid var(--title-text-color);
     border-radius: 2px;
     margin-right: 7px;
+    margin-left: 15px;
 }
 
 .checkbox:checked + .check-icon{
@@ -860,11 +862,13 @@ b{
 .link-agreement{
     color: var(--accent-color);
     text-decoration: underline;
+    margin-left: 4px;
 }
 
 .form .button{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
